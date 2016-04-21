@@ -11,16 +11,13 @@
             android:layout_height="wrap_content"
             android:fitsSystemWindows="true"
             app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-            app:elevation="20dp"
+            app:elevation="@dimen/elevation_app_bar"
             >
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar"
-                android:layout_marginLeft="@dimen/list_toolbar_side_margin"
-                android:layout_marginRight="@dimen/list_toolbar_side_margin"
                 android:layout_width="match_parent"
                 android:layout_height="?actionBarSize"
                 android:layout_gravity="bottom"
-                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
                 app:layout_scrollFlags="scroll|enterAlways"
                 >
                 <ImageView
